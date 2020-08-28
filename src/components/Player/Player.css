@@ -1,0 +1,42 @@
+div.player {
+    margin-left: -60px;
+    position: absolute;
+    height: 65px;
+    text-align: center;
+    width: 120px;
+    max-width: 120px;
+    z-index: 1;
+}
+
+.player .name {
+    line-height: normal;
+    font-size: 9.5pt;
+    margin-bottom: 10px;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 700;
+    perspective: 100px;
+    -webkit-transform: rotateX(15deg);
+    transform: rotateX(15deg);
+}
+
+.player .name a {
+    padding: 5px;
+    display: block;
+}
+
+.player img {
+    vertical-align: middle;
+}
+
+.player a {
+    color: #fff;
+}
+
+a {
+    color: #012374;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
